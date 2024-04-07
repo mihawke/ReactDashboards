@@ -281,6 +281,9 @@ const FrontPage1 = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='credit'>
+                        Design By : @itsmuntasirb
+                    </div>
                 </div>
             </div>
         </div>
