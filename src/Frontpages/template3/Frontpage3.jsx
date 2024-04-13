@@ -10,6 +10,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleLeft } from "react-icons/fa6";
 
 
 const FrontPage3 = () => {
@@ -65,6 +67,75 @@ const FrontPage3 = () => {
                 </div>
                 <img className={styles.image} src='/src/assets/images/Frontpage/template3/imageBase.png'></img>
             </div>
+            <div className={styles.search}>
+                <div className={styles.food}>
+                    <div className={styles.header}>
+                        <p className={styles.title}>Search by food</p>
+                        <div className={styles.arrows}>
+                            <button className={styles.button1}>
+                                <p className={styles.text}>View All</p><FaAngleRight className={styles.icon} size={15} />
+                            </button>
+                            <button className={styles.button}><FaAngleLeft className={styles.icon} size={20} /></button>
+                            <button className={styles.button}><FaAngleRight className={styles.icon} size={20} /></button>
+                        </div>
+                    </div>
+                    <div className={styles.frame}>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f1.png'></img>
+                            <p className={styles.name}>Pizza</p>
+                        </div>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f2.png'></img>
+                            <p className={styles.name}>Burger</p>
+                        </div>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f3.png'></img>
+                            <p className={styles.name}>Noodles</p>
+                        </div>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f4.png'></img>
+                            <p className={styles.name}>Sub-Sandwich</p>
+                        </div>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f5.png'></img>
+                            <p className={styles.name}>Chowmein</p>
+                        </div>
+                        <div className={styles.item}>
+                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f6.png'></img>
+                            <p className={styles.name}>Steak</p>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.features}>
+                    <div className={styles.box}>
+                        <div className={styles.card}>
+                            <div className={styles.icon}>
+                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/discount.png'></img>
+                            </div>
+                            <p className={styles.text}>Daily<br />Discounts</p>
+                        </div>
+                        <div className={styles.line}></div>
+                        <div className={styles.card}>
+                            <div className={styles.icon}>
+                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/trace.png'></img>
+                            </div>
+                            <div>
+                                <p className={styles.text}>Live<br />Tracing</p>
+                            </div>
+                        </div>
+                        <div className={styles.line}></div>
+                        <div className={styles.card}>
+                            <div className={styles.icon}>
+                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/quick.png'></img>
+                            </div>
+                            <p className={styles.text}>Quick<br />Delivery</p>
+                        </div>
+                    </div>
+                </div>
+                <div className={styles.app}>
+
+                </div>
+            </div>
             <div className={styles.cta}>
                 <h1 className={styles.text1}>Are you ready to order with the best deals?</h1>
                 <button className={styles.button}>PROCEED TO ORDER</button>
@@ -117,7 +188,7 @@ const FrontPage3 = () => {
                 </div>
                 <div className={styles.rights}>
                     <div className={styles.line}></div>
-                    <div style={{ display: 'flex', flexDirection: "row",justifyContent:'space-between' }}>
+                    <div style={{ display: 'flex', flexDirection: "row", justifyContent: 'space-between' }}>
                         <div style={{ display: 'flex', flexDirection: "row" }}>
                             <p className={styles.text1}>All rights Reserved</p><p className={styles.text2}>© Your Company , 2021</p>
                         </div>
