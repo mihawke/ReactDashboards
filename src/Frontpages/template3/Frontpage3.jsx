@@ -12,6 +12,8 @@ import { FaYoutube } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa6";
 import { FaAngleLeft } from "react-icons/fa6";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
+import { FaApple } from "react-icons/fa";
 
 
 const FrontPage3 = () => {
@@ -133,7 +135,67 @@ const FrontPage3 = () => {
                     </div>
                 </div>
                 <div className={styles.app}>
-
+                    <img className={styles.image} src='/src/assets/images/Frontpage/template3/app.png'></img>
+                    <div className={styles.info}>
+                        <div className={styles.description}>
+                            <p className={styles.heading}>Install the app</p>
+                            <p className={styles.text}>It's never been easier to order food. Look for the finest discounts and you'll be lost in a world of delectable food.</p>
+                        </div>
+                        <div className={styles.links}>
+                            <button className={styles.button}>
+                                <IoLogoGooglePlaystore className={styles.icon} size={25} color='#F17228' />
+                                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
+                                    <p style={{ fontSize: 9, fontWeight: 300, color: '#616161' }}>GET IT ON</p>
+                                    <p style={{ fontSize: 15, fontWeight: 500, marginTop: 3 }}>Google Play</p>
+                                </div>
+                            </button>
+                            <button className={styles.button}>
+                                <FaApple className={styles.icon} size={25} color='#F17228' />
+                                <div style={{ display: 'flex', flexDirection: 'column', textAlign: 'left' }}>
+                                    <p style={{ fontSize: 9, fontWeight: 300, color: '#616161' }}>GET IT ON</p>
+                                    <p style={{ fontSize: 15, fontWeight: 500 }}>Apple Store</p>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.details}>
+                <div className={styles.card}>
+                    <div className={styles.description}>
+                        <p style={{ fontSize: 30, fontWeight: 700, color: '#353535', lineHeight: '112%' }}>Best deals<span style={{ fontSize: 30, fontWeight: 700, color: '#FFB30E' }}> Crispy Sandwiches </span></p>
+                        <p style={{ fontSize: 14, color: '#616161', opacity: 0.69, marginTop: 10 }}>Enjoy the large size of sandwiches. Complete perfect slice of sandwiches.</p>
+                        <button className={styles.button}>
+                            <p> PROCEED TO ORDER</p><FaAngleRight className={styles.icon} size={12} style={{ marginLeft: 5 }} />
+                        </button>
+                    </div>
+                    <div style={{ display: 'flex' }}>
+                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details1.png'></img>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <div style={{ display: 'flex' }}>
+                        <img style={{ height: 350, borderBottomLeftRadius: '1rem', borderTopLeftRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details2.png'></img>
+                    </div>
+                    <div className={styles.description}>
+                        <p style={{ fontSize: 30, fontWeight: 700, color: '#353535', lineHeight: '112%' }}>Celebrate parties with<span style={{ fontSize: 30, fontWeight: 700, color: '#FFB30E' }}> Fried Chicken</span></p>
+                        <p style={{ fontSize: 14, color: '#616161', opacity: 0.69, marginTop: 10 }}>Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for fried chicken.</p>
+                        <button className={styles.button}>
+                            <p> PROCEED TO ORDER</p><FaAngleRight className={styles.icon} size={12} style={{ marginLeft: 5 }} />
+                        </button>
+                    </div>
+                </div>
+                <div className={styles.card}>
+                    <div className={styles.description}>
+                        <p style={{ fontSize: 30, fontWeight: 700, color: '#353535', lineHeight: '112%' }}>Wanna eat hot & spicy<span style={{ fontSize: 30, fontWeight: 700, color: '#FFB30E' }}> Pizza? </span></p>
+                        <p style={{ fontSize: 14, color: '#616161', opacity: 0.69, marginTop: 10 }}>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
+                        <button className={styles.button}>
+                            <p> PROCEED TO ORDER</p><FaAngleRight className={styles.icon} size={12} style={{ marginLeft: 5 }} />
+                        </button>
+                    </div>
+                    <div style={{ display: 'flex' }}>
+                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details3.png'></img>
+                    </div>
                 </div>
             </div>
             <div className={styles.cta}>
