@@ -9,7 +9,7 @@ const FrontPage1 = () => {
             <div className={styles.container}>
                 <div className={styles.header}>
                     <div className={styles.logo}>
-                        <img src='src/assets/images/Frontpage/template1/logo.png'></img>
+                        <img src='src/assets/images/template1/logo.png'/>
                     </div>
                     <div className={styles.group}>
                         <div className={styles.item}>
@@ -55,7 +55,7 @@ const FrontPage1 = () => {
                             <button className={styles.button}>Register</button>
                         </div>
                         <div>
-                            <img src='src/assets/images/Frontpage/template1/Illustration.png'></img>
+                            <img src='src/assets/images/template1/Illustration.png'/>
                         </div>
                     </div>
                     <div className={styles.clients}>
@@ -64,12 +64,12 @@ const FrontPage1 = () => {
                             <p className={styles.text}>We have been working with some Fortune 500+ clients</p>
                         </div>
                         <div className={styles.logos}>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/1.png'></img>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/2.png'></img>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/3.png'></img>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/4.png'></img>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/6.png'></img>
-                            <img className={styles.img} src='src/assets/images/Frontpage/template1/7.png'></img>
+                            <img className={styles.img} src='src/assets/images/template1/1.png'/>
+                            <img className={styles.img} src='src/assets/images/template1/2.png'/>
+                            <img className={styles.img} src='src/assets/images/template1/3.png'/>   
+                            <img className={styles.img} src='src/assets/images/template1/4.png'/>
+                            <img className={styles.img} src='src/assets/images/template1/6.png'/>
+                            <img className={styles.img} src='src/assets/images/template1/7.png'/>
                         </div>
                     </div>
                     <div className={styles.community}>
@@ -80,21 +80,21 @@ const FrontPage1 = () => {
                         <div className={styles.frame}>
                             <div className={styles.box}>
                                 <div className={styles.member}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/8.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/8.png'/>
                                     <p className={styles.title}>Membership <br />Organizations</p>
                                 </div>
                                 <p className={styles.memberDescription}>Our membership management software provides full automation of membership renewals and payments</p>
                             </div>
                             <div className={styles.box}>
                                 <div className={styles.member}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/9.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/9.png'/>
                                     <p className={styles.title}>National <br />Associations</p>
                                 </div>
                                 <p className={styles.memberDescription}>Our membership management software provides full automation of membership renewals and payments</p>
                             </div>
                             <div className={styles.box}>
                                 <div className={styles.member}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/10.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/10.png'/>
                                     <p className={styles.title}>Clubs And<br />Groups</p>
                                 </div>
                                 <p className={styles.memberDescription}>Our membership management software provides full automation of membership renewals and payments</p>
@@ -112,7 +112,7 @@ const FrontPage1 = () => {
                 <div className={styles.body}>
                     <div className={styles.unlock}>
                         <div className={styles.image}>
-                            <img className={styles.icon} src='src/assets/images/Frontpage/template1/15.png'></img>
+                            <img className={styles.icon} src='src/assets/images/template1/15.png'/>
                         </div>
                         <div className={styles.frame}>
                             <p className={styles.text1}>The unseen of spending three years at Pixelgrade</p>
@@ -128,14 +128,14 @@ const FrontPage1 = () => {
                         <div className={styles.counts}>
                             <div className={styles.row1}>
                                 <div className={styles.item}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/16.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/16.png'/>
                                     <div className={styles.details}>
                                         <p className={styles.number}>2,245,341</p>
                                         <p className={styles.label}>Members</p>
                                     </div>
                                 </div>
                                 <div className={styles.item}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/17.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/17.png'/>
                                     <div className={styles.details}>
                                         <p className={styles.number}>46,328</p>
                                         <p className={styles.label}>Clubs</p>
@@ -144,14 +144,14 @@ const FrontPage1 = () => {
                             </div>
                             <div className={styles.row2}>
                                 <div className={styles.item}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/19.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/19.png'/>
                                     <div className={styles.details}>
                                         <p className={styles.number}>828,867</p>
                                         <p className={styles.label}>Event Bookings</p>
                                     </div>
                                 </div>
                                 <div className={styles.item}>
-                                    <img className={styles.icon} src='src/assets/images/Frontpage/template1/18.png'></img>
+                                    <img className={styles.icon} src='src/assets/images/template1/18.png'/>
                                     <div className={styles.details}>
                                         <p className={styles.number}>1,926,436</p>
                                         <p className={styles.label}>Payments</p>
@@ -162,7 +162,7 @@ const FrontPage1 = () => {
                     </div>
                     <div className={styles.calender}>
                         <div className={styles.image}>
-                            <img className={styles.icon} src='src/assets/images/Frontpage/template1/20.png'></img>
+                            <img className={styles.icon} src='src/assets/images/template1/20.png'/>
                         </div>
                         <div className={styles.frame}>
                             <p className={styles.text1}>How to design your site footer like we did</p>
@@ -172,7 +172,7 @@ const FrontPage1 = () => {
                     </div>
                     <div className={styles.customers}>
                         <div className={styles.image}>
-                            <img src='src/assets/images/Frontpage/template1/21.png'></img>
+                            <img src='src/assets/images/template1/21.png'/>
                         </div>
                         <div className={styles.frame}>
                             <div>
@@ -182,14 +182,14 @@ const FrontPage1 = () => {
                             </div>
                             <div className={styles.frame1}>
                                 <div className={styles.logos}>
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/1.png'></img>
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/2.png'></img>
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/3.png'></img>
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/4.png'></img>
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/6.png'></img>
+                                    <img className={styles.img} src='src/assets/images/template1/1.png'/>
+                                    <img className={styles.img} src='src/assets/images/template1/2.png'/>
+                                    <img className={styles.img} src='src/assets/images/template1/3.png'/>
+                                    <img className={styles.img} src='src/assets/images/template1/4.png'/>
+                                    <img className={styles.img} src='src/assets/images/template1/6.png'/>
                                 </div>
                                 <button className={styles.button}>Meet all customers
-                                    <img className={styles.img} src='src/assets/images/Frontpage/template1/Right.png' style={{ marginLeft: 10 }}></img>
+                                    <img className={styles.img} src='src/assets/images/template1/Right.png' style={{ marginLeft: 10 }}/>
                                 </button>
                             </div>
                         </div>
@@ -201,29 +201,29 @@ const FrontPage1 = () => {
                         </div>
                         <div className={styles.frame1}>
                             <div className={styles.box}>
-                                <img className={styles.img} src='src/assets/images/Frontpage/template1/22.png'></img>
+                                <img className={styles.img} src='src/assets/images/template1/22.png'></img>
                                 <div className={styles.content}>
                                     <p className={styles.text}>Creating Streamlined Safeguarding Processes with OneRen</p>
                                     <button className={styles.button}>Read more
-                                        <img src='src/assets/images/Frontpage/template1/Right.png' style={{ marginLeft: 10 }}></img>
+                                        <img src='src/assets/images/template1/Right.png' style={{ marginLeft: 10 }}></img>
                                     </button>
                                 </div>
                             </div>
                             <div className={styles.box}>
-                                <img className={styles.img} src='src/assets/images/Frontpage/template1/23.png'></img>
+                                <img className={styles.img} src='src/assets/images/template1/23.png'></img>
                                 <div className={styles.content}>
                                     <p className={styles.text}>What are your safeguarding responsibilities and how can you manage them?</p>
                                     <button className={styles.button}>Read more
-                                        <img src='src/assets/images/Frontpage/template1/Right.png' style={{ marginLeft: 10 }}></img>
+                                        <img src='src/assets/images/template1/Right.png' style={{ marginLeft: 10 }}></img>
                                     </button>
                                 </div>
                             </div>
                             <div className={styles.box}>
-                                <img className={styles.img} src='src/assets/images/Frontpage/template1/24.png'></img>
+                                <img className={styles.img} src='src/assets/images/template1/24.png'></img>
                                 <div className={styles.content}>
                                     <p className={styles.text}>Revamping the Membership Model with Triathlon Australia</p>
                                     <button className={styles.button}>Read more
-                                        <img src='src/assets/images/Frontpage/template1/Right.png' style={{ marginLeft: 10 }}></img>
+                                        <img src='src/assets/images/template1/Right.png' style={{ marginLeft: 10 }}></img>
                                     </button>
                                 </div>
                             </div>
@@ -245,16 +245,16 @@ const FrontPage1 = () => {
                     <div className={styles.frame2}>
                         <div className={styles.info}>
                             <div className={styles.logo}>
-                                <img src='src/assets/images/Frontpage/template1/logo1.png'></img>
+                                <img src='src/assets/images/template1/logo1.png'></img>
                             </div>
                             <div className={styles.copyright}>
                                 <p className={styles.text}>Copyright © 2020 Nexcent ltd. <br />All rights reserved</p>
                             </div>
                             <div className={styles.socials}>
-                                <a><img className={styles.icon} src='src/assets/images/Frontpage/template1/11.png'></img></a>
-                                <a><img className={styles.icon} src='src/assets/images/Frontpage/template1/12.png'></img></a>
-                                <a><img className={styles.icon} src='src/assets/images/Frontpage/template1/13.png'></img></a>
-                                <a><img className={styles.icon} src='src/assets/images/Frontpage/template1/14.png'></img></a>
+                                <a><img className={styles.icon} src='src/assets/images/template1/11.png'></img></a>
+                                <a><img className={styles.icon} src='src/assets/images/template1/12.png'></img></a>
+                                <a><img className={styles.icon} src='src/assets/images/template1/13.png'></img></a>
+                                <a><img className={styles.icon} src='src/assets/images/template1/14.png'></img></a>
                             </div>
                         </div>
                         <div className={styles.links}>

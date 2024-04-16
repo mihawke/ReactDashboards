@@ -21,7 +21,7 @@ const FrontPage3 = () => {
         <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.logo}>
-                    <img className={styles.image} src='/src/assets/images/Frontpage/template3/logo.png'></img>
+                    <img className={styles.image} src='/src/assets/images/template3/logo.png'></img>
                 </div>
                 <div className={styles.location}>
                     <div>
@@ -67,7 +67,7 @@ const FrontPage3 = () => {
                         </div>
                     </div>
                 </div>
-                <img className={styles.image} src='/src/assets/images/Frontpage/template3/imageBase.png'></img>
+                <img className={styles.image} src='/src/assets/images/template3/imageBase.png'></img>
             </div>
             <div className={styles.search}>
                 <div className={styles.food}>
@@ -83,27 +83,27 @@ const FrontPage3 = () => {
                     </div>
                     <div className={styles.frame}>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f1.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f1.png'></img>
                             <p className={styles.name}>Pizza</p>
                         </div>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f2.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f2.png'></img>
                             <p className={styles.name}>Burger</p>
                         </div>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f3.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f3.png'></img>
                             <p className={styles.name}>Noodles</p>
                         </div>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f4.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f4.png'></img>
                             <p className={styles.name}>Sub-Sandwich</p>
                         </div>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f5.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f5.png'></img>
                             <p className={styles.name}>Chowmein</p>
                         </div>
                         <div className={styles.item}>
-                            <img className={styles.image} src='/src/assets/images/Frontpage/template3/f6.png'></img>
+                            <img className={styles.image} src='/src/assets/images/template3/f6.png'></img>
                             <p className={styles.name}>Steak</p>
                         </div>
                     </div>
@@ -112,14 +112,14 @@ const FrontPage3 = () => {
                     <div className={styles.box}>
                         <div className={styles.card}>
                             <div className={styles.icon}>
-                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/discount.png'></img>
+                                <img className={styles.image} src='/src/assets/images/template3/discount.png'></img>
                             </div>
                             <p className={styles.text}>Daily<br />Discounts</p>
                         </div>
                         <div className={styles.line}></div>
                         <div className={styles.card}>
                             <div className={styles.icon}>
-                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/trace.png'></img>
+                                <img className={styles.image} src='/src/assets/images/template3/trace.png'></img>
                             </div>
                             <div>
                                 <p className={styles.text}>Live<br />Tracing</p>
@@ -128,14 +128,14 @@ const FrontPage3 = () => {
                         <div className={styles.line}></div>
                         <div className={styles.card}>
                             <div className={styles.icon}>
-                                <img className={styles.image} src='/src/assets/images/Frontpage/template3/quick.png'></img>
+                                <img className={styles.image} src='/src/assets/images/template3/quick.png'></img>
                             </div>
                             <p className={styles.text}>Quick<br />Delivery</p>
                         </div>
                     </div>
                 </div>
                 <div className={styles.app}>
-                    <img className={styles.image} src='/src/assets/images/Frontpage/template3/app.png'></img>
+                    <img className={styles.image} src='/src/assets/images/template3/app.png'></img>
                     <div className={styles.info}>
                         <div className={styles.description}>
                             <p className={styles.heading}>Install the app</p>
@@ -170,12 +170,12 @@ const FrontPage3 = () => {
                         </button>
                     </div>
                     <div style={{ display: 'flex' }}>
-                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details1.png'></img>
+                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/template3/details1.png'></img>
                     </div>
                 </div>
                 <div className={styles.card}>
                     <div style={{ display: 'flex' }}>
-                        <img style={{ height: 350, borderBottomLeftRadius: '1rem', borderTopLeftRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details2.png'></img>
+                        <img style={{ height: 350, borderBottomLeftRadius: '1rem', borderTopLeftRadius: '1rem' }} src='/src/assets/images/template3/details2.png'></img>
                     </div>
                     <div className={styles.description}>
                         <p style={{ fontSize: 30, fontWeight: 700, color: '#353535', lineHeight: '112%' }}>Celebrate parties with<span style={{ fontSize: 30, fontWeight: 700, color: '#FFB30E' }}> Fried Chicken</span></p>
@@ -194,7 +194,7 @@ const FrontPage3 = () => {
                         </button>
                     </div>
                     <div style={{ display: 'flex' }}>
-                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/Frontpage/template3/details3.png'></img>
+                        <img style={{ height: 350, borderBottomRightRadius: '1rem', borderTopRightRadius: '1rem' }} src='/src/assets/images/template3/details3.png'></img>
                     </div>
                 </div>
             </div>

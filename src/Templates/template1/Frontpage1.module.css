@@ -6,7 +6,7 @@
 
 .container {
     display: flex;
-    width: 100vw;
+    width: 99vw;
     max-width: 100%;
     /* justify-content: center;
     align-items: center; */

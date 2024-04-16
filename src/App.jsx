@@ -2,9 +2,10 @@ import './App.css';
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from './Pages/Mainpage';
-import FrontPage1 from './Frontpages/template1/Frontpage1';
-import FrontPage2 from './Frontpages/template2/Frontpage2';
-import FrontPage3 from './Frontpages/template3/Frontpage3';
+import FrontPage1 from './Templates/template1/Frontpage1';
+import FrontPage2 from './Templates/template2/Frontpage2';
+import FrontPage3 from './Templates/template3/Frontpage3';
+
 
 function App() {
   return (

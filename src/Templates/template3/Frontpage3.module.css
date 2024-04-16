@@ -136,7 +136,7 @@
 .body {
     width: 100%;
     height: 465px;
-    background-image: url(../../assets/images/Frontpage/template3/headerBg.png);
+    background-image: url(../../assets/images/template3/headerBg.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -543,7 +543,7 @@
 .cta {
     width: 100%;
     height: 300px;
-    background-image: url(../../assets/images/Frontpage/template3/CTA.png);
+    background-image: url(../../assets/images/template3/CTA.png);
     background-size: cover;
     background-position: center;
     display: flex;

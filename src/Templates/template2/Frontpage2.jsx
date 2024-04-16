@@ -11,7 +11,7 @@ const FrontPage2 = () => {
         <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.logo}>
-                    <img src='/src/assets/images/Frontpage/template2/logo.png'></img>
+                    <img src='/src/assets/images/template2/logo.png'></img>
                 </div>
                 <div className={styles.menu}>
                     <button className={styles.button} onClick={() => navigate('/frontpage2/home')}>Home</button>
@@ -41,15 +41,15 @@ const FrontPage2 = () => {
                 </div>
                 <div className={styles.options}>
                     <div className={styles.item}>
-                        <img className={styles.image} id='dining' src='/src/assets/images/Frontpage/template2/dining.png'></img>
+                        <img className={styles.image} id='dining' src='/src/assets/images/template2/dining.png'></img>
                         <label className={styles.label} htmlFor='dining'>Dining</label>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} id='living' src='/src/assets/images/Frontpage/template2/living.png'></img>
+                        <img className={styles.image} id='living' src='/src/assets/images/template2/living.png'></img>
                         <label className={styles.label} htmlFor='living'>Living</label>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} id='bedroom' src='/src/assets/images/Frontpage/template2/bedroom.png'></img>
+                        <img className={styles.image} id='bedroom' src='/src/assets/images/template2/bedroom.png'></img>
                         <label className={styles.label} htmlFor='bedroom'>Bedroom</label>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const FrontPage2 = () => {
                 <p className={styles.heading}>Our Products</p>
                 <div className={styles.itemContainer}>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod1.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod1.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Syltherine</p>
                             <p className={styles.details}>Stylish cafe chair</p>
@@ -66,7 +66,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod2.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod2.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Leviosa</p>
                             <p className={styles.details}>Stylish cafe chair</p>
@@ -74,7 +74,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod3.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod3.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Lolito</p>
                             <p className={styles.details}>Luxury big sofa</p>
@@ -82,7 +82,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod4.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod4.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Respira</p>
                             <p className={styles.details}>Outdoor bar table and stool</p>
@@ -90,7 +90,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod1.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod1.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Syltherine</p>
                             <p className={styles.details}>Stylish cafe chair</p>
@@ -98,7 +98,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod2.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod2.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Leviosa</p>
                             <p className={styles.details}>Stylish cafe chair</p>
@@ -106,7 +106,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod3.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod3.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Lolito</p>
                             <p className={styles.details}>Luxury big sofa</p>
@@ -114,7 +114,7 @@ const FrontPage2 = () => {
                         </div>
                     </div>
                     <div className={styles.item}>
-                        <img className={styles.image} src='/src/assets/images/Frontpage/template2/prod4.png'></img>
+                        <img className={styles.image} src='/src/assets/images/template2/prod4.png'></img>
                         <div className={styles.description}>
                             <p className={styles.name}>Respira</p>
                             <p className={styles.details}>Outdoor bar table and stool</p>
@@ -133,16 +133,16 @@ const FrontPage2 = () => {
                     <button className={styles.button}>Explore More</button>
                 </div>
                 <div className={styles.options}>
-                    <img className={styles.image} src='/src/assets/images/Frontpage/template2/insp1.png'></img>
-                    <img className={styles.image} src='/src/assets/images/Frontpage/template2/insp1.png'></img>
-                    <img className={styles.image} src='/src/assets/images/Frontpage/template2/insp1.png'></img>
+                    <img className={styles.image} src='/src/assets/images/template2/insp1.png'></img>
+                    <img className={styles.image} src='/src/assets/images/template2/insp1.png'></img>
+                    <img className={styles.image} src='/src/assets/images/template2/insp1.png'></img>
                 </div>
             </div>
             <div className={styles.footer}>
                 <div className={styles.frame1}>
                     <div className={styles.info}>
                         <div className={styles.logo}>
-                            <img src='/src/assets/images/Frontpage/template2/logo.png'></img>
+                            <img src='/src/assets/images/template2/logo.png'></img>
                         </div>
                         <div className={styles.copyright}>
                             <p className={styles.text}>400 University Drive Suite 200 Coral Gables, <br />FL 33134 USA</p>
