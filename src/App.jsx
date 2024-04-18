@@ -5,6 +5,7 @@ import MainPage from './Pages/Mainpage';
 import FrontPage1 from './Templates/template1/Frontpage1';
 import FrontPage2 from './Templates/template2/Frontpage2';
 import FrontPage3 from './Templates/template3/Frontpage3';
+import FrontPage4 from './Templates/template4/Frontpage4';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/frontpage1" element={<FrontPage1/>} />
           <Route path="/frontpage2" element={<FrontPage2/>} />
           <Route path="/frontpage3" element={<FrontPage3/>} />
+          <Route path="/frontpage4" element={<FrontPage4/>} />
       </Routes>
     </BrowserRouter>
   );
