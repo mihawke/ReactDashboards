@@ -11,6 +11,7 @@ const MainPage = () => {
             <button onClick={()=> navigate('/frontpage2')}>FrontPage2</button>
             <button onClick={()=> navigate('/frontpage3')}>FrontPage3</button>
             <button onClick={()=> navigate('/frontpage4')}>FrontPage4</button>
+            <button onClick={()=> navigate('/frontpage5')}>FrontPage5</button>
         </>
     )
 }

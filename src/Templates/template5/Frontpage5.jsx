@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './Frontpage4.module.css'
+import styles from './Frontpage5.module.css'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 
 
-const FrontPage4 = () => {
+const FrontPage5 = () => {
     return (
         <div className={styles.container}>
 
@@ -268,4 +268,4 @@ const FrontPage4 = () => {
     )
 }
 
-export default FrontPage4
+export default FrontPage5
