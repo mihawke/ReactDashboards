@@ -7,11 +7,13 @@ const MainPage = () => {
         <>
             <div>MainPage</div>
             <button onClick={()=> navigate('/home')}>Go Home</button>
+            <button onClick={()=> navigate('/common')}>Common</button>
             <button onClick={()=> navigate('/frontpage1')}>FrontPage1</button>
             <button onClick={()=> navigate('/frontpage2')}>FrontPage2</button>
             <button onClick={()=> navigate('/frontpage3')}>FrontPage3</button>
             <button onClick={()=> navigate('/frontpage4')}>FrontPage4</button>
             <button onClick={()=> navigate('/frontpage5')}>FrontPage5</button>
+            <button onClick={()=> navigate('/frontpage6')}>FrontPage6</button>
         </>
     )
 }

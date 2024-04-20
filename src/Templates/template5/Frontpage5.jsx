@@ -39,7 +39,7 @@ const FrontPage5 = () => {
                         <p className={styles.text3}>With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
                         <button className={styles.button}>Get started</button>
                     </div>
-                    <img src='src/assets/images/template4/hero.png' />
+                    <img src='src/assets/images/template5/hero.png' />
                 </div>
             </div>
 
@@ -52,7 +52,7 @@ const FrontPage5 = () => {
                     <div className={styles.card}
                         style={{ backgroundColor: '#68D585' }}
                     >
-                        <img src='src/assets/images/template4/graphicDesign.png' />
+                        <img src='src/assets/images/template5/graphicDesign.png' />
                         <p className={styles.text1}>Graphic Design</p>
                         <p className={styles.text2}>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                         <button className={styles.button}>Learn more</button>
@@ -60,7 +60,7 @@ const FrontPage5 = () => {
                     <div className={styles.card}
                         style={{ backgroundColor: '#473BF0' }}
                     >
-                        <img src='src/assets/images/template4/webDev.png' />
+                        <img src='src/assets/images/template5/webDev.png' />
                         <p className={styles.text1}>Graphic Design</p>
                         <p className={styles.text2}>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                         <button className={styles.button}>Learn more</button>
@@ -68,7 +68,7 @@ const FrontPage5 = () => {
                     <div className={styles.card}
                         style={{ backgroundColor: '#F64B4B' }}
                     >
-                        <img src='src/assets/images/template4/contentWriting.png' />
+                        <img src='src/assets/images/template5/contentWriting.png' />
                         <p className={styles.text1}>Graphic Design</p>
                         <p className={styles.text2}>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                         <button className={styles.button}>Learn more</button>
@@ -107,14 +107,14 @@ const FrontPage5 = () => {
                 <div className={styles.frame}>
                     <div className={styles.frame2}>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/features1.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/features1.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text1}>Dedicated project manager</p>
                                 <p className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim elit risus.</p>
                             </div>
                         </div>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/features3.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/features3.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text1}>Easy feedback sharing</p>
                                 <p className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim elit risus.</p>
@@ -123,14 +123,14 @@ const FrontPage5 = () => {
                     </div>
                     <div className={styles.frame2}>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/features2.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/features2.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text1}>Organized tasks</p>
                                 <p className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim elit risus.</p>
                             </div>
                         </div>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/features4.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/features4.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text1}>Never miss deadline</p>
                                 <p className={styles.text2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim elit risus.</p>
@@ -156,14 +156,14 @@ const FrontPage5 = () => {
                 <div className={styles.frame}>
                     <div className={styles.frame2}>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/work1.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/work1.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text2}>Graphic Design</p>
                                 <p className={styles.text1}>Aura Branding Design</p>
                             </div>
                         </div>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/work2.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/work2.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text2}>Web Development</p>
                                 <p className={styles.text1}>Gradient Website Development</p>
@@ -173,14 +173,14 @@ const FrontPage5 = () => {
                     </div>
                     <div className={styles.frame2}>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/work3.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/work3.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text2}>Graphic Design</p>
                                 <p className={styles.text1}>AB.S Snack Packaging</p>
                             </div>
                         </div>
                         <div className={styles.card}>
-                            <img src='src/assets/images/template4/work4.png' style={{ paddingTop: 6 }} />
+                            <img src='src/assets/images/template5/work4.png' style={{ paddingTop: 6 }} />
                             <div>
                                 <p className={styles.text2}>Content Writing</p>
                                 <p className={styles.text1}>Magazine Content Writing</p>
@@ -198,7 +198,7 @@ const FrontPage5 = () => {
             <div className={styles.testimonial}>
                 <p className={styles.text1}>TESTIMONIAL</p>
                 <p className={styles.text2}>“Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”</p>
-                <img src='src/assets/images/template4/testimonial1.png' style={{ marginBottom: 18 }} />
+                <img src='src/assets/images/template5/testimonial1.png' style={{ marginBottom: 18 }} />
                 <p className={styles.text3}>Ian Klein</p>
                 <p className={styles.text4}>Digital Marketer</p>
             </div>

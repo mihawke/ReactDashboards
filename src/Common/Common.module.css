@@ -1,5 +1,5 @@
-.container {
-    width: 99vw;
+.container{
     display: flex;
+    width: 99vw;
     flex-direction: column;
 }

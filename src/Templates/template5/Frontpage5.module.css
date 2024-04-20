@@ -80,7 +80,7 @@
 }
 
 .hero {
-    background-image: url(../../assets/images/template4/Bitmap.png);
+    background-image: url(../../assets/images/template5/Bitmap.png);
     background-color: #F4F7FA;
     display: flex;
     align-items: center;
@@ -519,7 +519,7 @@
     align-items: center;
     padding: 130px 0 130px 0;
     background-color: #473BF0;
-    background-image: url(../../assets/images/template4/testimonialBg.png);
+    background-image: url(../../assets/images/template5/testimonialBg.png);
 
 }
 
