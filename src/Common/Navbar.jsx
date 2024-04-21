@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <div className={styles.frame1}>
                 <div className={styles.logo}>
-                    Logo
+                    PixelForge.io
                 </div>
             </div>
             <div className={styles.frame2}>

@@ -1,0 +1,46 @@
+.feedback {
+    width: 100%;
+    background-color: #2B2B2B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.frame1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1080px;
+    height: 460px;
+    border-radius: 20px;
+    padding: 0px 175px 0px 175px;
+    background-color: #FBE4AB;
+}
+
+.frame1 .image{
+    width: 62px;
+    height: auto;
+    margin-bottom: 2 0px;
+
+}
+
+.frame1 .text1 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 32px;
+    color: #2B2B2B;
+    margin-bottom: 40px;
+}
+
+.frame1 .text2 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    line-height: 32px;
+    color: #2B2B2B;
+    opacity: 0.4;
+}

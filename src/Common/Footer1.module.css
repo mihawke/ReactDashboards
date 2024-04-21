@@ -1,0 +1,116 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #2B2B2B;
+}
+
+.footer .frame1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0 32px 0;
+}
+
+.footer .frame1 .text {
+    width: 800px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin: 0 0 32px 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+.footer .frame1 .button {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer .frame2 {
+    padding: 64px 0 64px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer .frame2 .info .logo {
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer .frame2 .info .copyright {
+    margin-bottom: 40px;
+}
+
+.footer .frame2 .info .copyright .text {
+    color: #F5F7FA;
+}
+
+.footer .frame2 .info .socials {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.footer .frame2 .info .socials .icon {
+   color: #FFFFFF;
+}
+
+
+.footer .frame2 .links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer .frame2 .links .column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.footer .frame2 .links .column .title {
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #F5F7FA;
+    margin: 0 0 24px 0;
+    padding: 0;
+}
+
+.footer .frame2 .links .column .item {
+    font-size: 12px;
+    /* font-weight: 500; */
+    color: #F5F7FA;
+    margin: 0 0 12px 0;
+    padding: 0;
+    display: flex;
+    text-align: center;
+}
+
+.footer .frame2 .links .column .input {
+    font-size: 15px;
+    color: D9DBE1;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 255px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 10px 0 10px;
+}

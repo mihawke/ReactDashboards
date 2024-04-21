@@ -1,49 +1,49 @@
 .hero {
     width: 100%;
+    height: 600px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
-    column-gap: 40px;
-    padding: 40px 0 40px 0;
+    background-color: #2B2B2B;
+    column-gap: 4rem;
 }
 
 .frame1 {
     display: flex;
     flex-direction: column;
-    width: 800px;
-    text-align: center;
-    align-items: center;
-    margin-bottom: 3em;
 }
 
-.frame1 .text1 {
+.frame1 .title {
     font-size: 60px;
+    width: 480px;
     font-weight: bold;
-    letter-spacing: -2.5;
-    line-height: 72px;
-    color: black;
+    letter-spacing: normal;
+    line-height: 90px;
+    color: #FFFFFF;
 }
 
-.frame1 .text2 {
+.frame1 .subtitle {
     font-size: 18px;
+    width: 480px;
     font-weight: normal;
     letter-spacing: normal;
-    line-height: 28px;
-    color: black;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
 .frame1 .button {
     font-size: 14px;
     font-weight: 500;
+    width: 175px;
+    height: 50px;
+    border-radius: 15px;
     letter-spacing: normal;
     line-height: 20px;
     border: none;
-    color: #FFFFFF;
-    background-color: #7C3AED;
-    padding: 8px 12px 8px 12px;
-    border-radius: 4px;
-    width: fit-content;
+    color: #000000;
+    background-color: #F8D57E;
     margin-top: 40px;
 }
 
