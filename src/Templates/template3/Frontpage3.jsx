@@ -44,7 +44,7 @@ const FrontPage3 = () => {
             <div className={styles.body}>
                 <div className={styles.banner}>
                     <div className={styles.title}>
-                        <h1 className={styles.text1}>Are you starving?</h1>
+                        <p className={styles.text1}>Are you starving?</p>
                         <p className={styles.text2}>Within a few clicks, find meals that are accessible near you</p>
                     </div>
                     <div className={styles.order}>

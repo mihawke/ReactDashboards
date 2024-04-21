@@ -153,11 +153,11 @@
     flex-direction: column;
 }
 
-.body .banner .title {}
+.body .banner .title {
+}
 
 .body .banner .title .text1 {
     font-size: 70px;
-    line-height: 20px;
     color: #FFFFFF;
 }
 
